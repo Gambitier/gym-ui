@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Plans from "./Plans";
 
-export const PlanRoute = () => {
+export const PlanRoutes = () => {
   return (
     <Routes>
-      <Route path="" element={<Plans />} />
-      {/* Example: You can add more routes related to plan feature here */}
-      {/* <Route path="/create" element={<CreatePlan />} /> */}
+      <Route
+        path="path"
+        element={<ComponentName onSuccess={() => console.log("success")} />}
+      />
     </Routes>
   );
 };
